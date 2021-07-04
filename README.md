@@ -4,7 +4,7 @@ Simple Calculator App Developed Using Flutter SDK and Android Studio
 
 # INFO
 
-Simple mobile application developed by using flutter SDK and Android Studio in Dart language. Like iPhone calculator design UI
+Simple mobile application developed by using flutter SDK and Android Studio in Dart language. Like iPhone calculator design UI.
 Color codes: 
 #FF3F51B5
 #FF4CAF50
