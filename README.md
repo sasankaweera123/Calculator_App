@@ -18,5 +18,6 @@ Supports simple operations such as Additon,Multiplication,Division,Subtraction
 <img src="IMG/IMG2.JPG">
 
 # LICENSE
+MIT License: 
 Feel free to use the code as you please
 
