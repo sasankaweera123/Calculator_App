@@ -1,3 +1,5 @@
+import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:page_transition/page_transition.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +12,19 @@ class Myapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Calculator(),
+      home: AnimatedSplashScreen(
+        splash: Icon(
+          Icons.calculate_outlined,
+          color: Colors.white,
+          size: 150,
+        ),
+        duration: 3000,
+        nextScreen: Calculator(),
+        splashTransition: SplashTransition.scaleTransition,
+        pageTransitionType: PageTransitionType.leftToRight,
+        backgroundColor: Colors.black,
+      ),
+
     );
   }
 }
