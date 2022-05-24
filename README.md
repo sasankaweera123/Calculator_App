@@ -21,3 +21,4 @@ Supports simple operations such as Additon,Multiplication,Division,Subtraction.<
 MIT License: 
 - Feel free to use the code as you please
 
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
